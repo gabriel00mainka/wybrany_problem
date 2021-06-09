@@ -17,7 +17,7 @@ class zrob:
         for i in range(m):
             self.czasy.append(random.nextInt(1,29))   # dodawanie czasów na m maszyn
 
-tab_zadania = []    # pusta tabela zadan
+tab_zadania = []    # pusta tabela zadań
 for k in range(n):
     tab_zadania.append(zrob(k))  # przydzielanie zadań z przydzielonymi czasami na m maszyn
 
